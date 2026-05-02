@@ -27,19 +27,5 @@ hospital/
 ├── appointment.py     # Appointment module
 ├── billing.py         # Billing module
 ├── main.py            # Main menu-driven program
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/hospital-management.git
-cd hospital-management
-2️⃣ Install Dependencies
-pip install mysql-connector-python
-3️⃣ Setup MySQL Database
-Create a database named:
-CREATE DATABASE hospital_db;
-Update credentials in db.py:
-host="localhost"
-user="root"
-password="your_password"
-database="hospital_db"
 ▶️ How to Run
 python main.py
